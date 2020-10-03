@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BMC.Security.Web.Blazor.Data;
+using Blazored.Toast;
 
 namespace BMC.Security.Web.Blazor
 {
@@ -27,6 +28,7 @@ namespace BMC.Security.Web.Blazor
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddBlazoredToast();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
         }

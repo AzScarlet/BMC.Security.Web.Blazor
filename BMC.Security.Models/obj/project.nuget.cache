@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "59Sn5C2RqsQKcvQdCwlAzZdc/iPjh1/gKkGGdVTYIunComMPlibb0es3mI/npAruVAIHBRpLSTH0kxAc90cckw==",
+  "dgSpecHash": "4/1Ju3QgIpM0s4I5KiIhwew2daFPTAQ2QcG8JdDNMGnjrN/AyZg2ZSSus9cdJU1smFzgf3m0gZOB4d34PjRb2w==",
   "success": true,
-  "projectFilePath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Models\\BMC.Security.Models.csproj",
+  "projectFilePath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Models\\BMC.Security.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Janu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Janu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

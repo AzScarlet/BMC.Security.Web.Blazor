@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj": {}
+    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj": {}
   },
   "projects": {
-    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj": {
+    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj",
+        "projectUniqueName": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj",
         "projectName": "BMC.Security.Web.Blazor",
-        "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj",
+        "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj",
         "packagesPath": "C:\\Users\\Janu\\.nuget\\packages\\",
-        "outputPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Web.Blazor\\obj\\",
+        "outputPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Blazored.Toast": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

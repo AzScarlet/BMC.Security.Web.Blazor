@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Models\\BMC.Security.Models.csproj": {}
+    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Models\\BMC.Security.Models.csproj": {}
   },
   "projects": {
-    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Models\\BMC.Security.Models.csproj": {
+    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Models\\BMC.Security.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Models\\BMC.Security.Models.csproj",
+        "projectUniqueName": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Models\\BMC.Security.Models.csproj",
         "projectName": "BMC.Security.Models",
-        "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Models\\BMC.Security.Models.csproj",
+        "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Models\\BMC.Security.Models.csproj",
         "packagesPath": "C:\\Users\\Janu\\.nuget\\packages\\",
-        "outputPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazored\\BMC.Security.Models\\obj\\",
+        "outputPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
