@@ -4,7 +4,26 @@
 @using Microsoft.AspNetCore.Components.Authorization
 @inject AuthenticationStateProvider AuthenticationStateProvider
 
-<h3>Login</h3>
+<div class="main">
+    <div class="card-img">
+        <img src="/images/loginbmc.png" asp-append-version="true" style="width:300px;padding-left:20px" />
+    </div>
+    <div class="content" style="margin-left:30px">
+        <div>
+            <strong style="font-size:40px">WELCOME TO</strong><br />
+            <p style="font-size:25px">BMSPACE SECURITY</p>
+            <p style="font-size:20px">Panel 0.1</p>
+        </div>
+        <div>
+            <input style="border: 1px solid grey; border-radius: 30px; text-align: center; padding: 10px; width: 270px;" placeholder="Passcode" name="ctl00$MainContent$TxtPass" type="password" id="MainContent_TxtPass" class="uk-input" />
+        </div>
+        <br />
+        <div>
+            <input style="border-radius: 15px; padding: 5px; width: 100px; color: white; background: #1d1761; margin-left: 80px; text-transform: capitalize;" type="submit" name="ctl00$MainContent$BtnPass" value="Sign-in" id="MainContent_BtnPass" class="uk-button uk-button-default" />
+        </div>
+    </div>
+</div>
+
 
 @code {
 

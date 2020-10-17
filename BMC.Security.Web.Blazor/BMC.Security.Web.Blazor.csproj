@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BMC.Security.Models\BMC.Security.Models.csproj" />
-    <ProjectReference Include="..\StockAnalyzer.Tools\BMC.Security.Tools.csproj" />
+    <ProjectReference Include="..\BMC.Security.Tools\BMC.Security.Tools.csproj" />
   </ItemGroup>
 
 </Project>

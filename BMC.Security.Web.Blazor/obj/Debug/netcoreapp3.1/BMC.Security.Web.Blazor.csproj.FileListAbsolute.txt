@@ -91,3 +91,7 @@ C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcorea
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcoreapp3.1\BMC.Security.Web.Blazor.dll
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcoreapp3.1\BMC.Security.Web.Blazor.pdb
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcoreapp3.1\BMC.Security.Web.Blazor.genruntimeconfig.cache
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\EmptyLayout.razor.g.cs
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcoreapp3.1\Razor\Shared\EmptyLayout.razor.g.cs
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Private\CctvDetail.razor.g.cs
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcoreapp3.1\Razor\Pages\Private\CctvDetail.razor.g.cs
