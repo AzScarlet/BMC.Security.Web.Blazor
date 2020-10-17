@@ -4,12 +4,12 @@
 <AuthorizeView>
     <Authorized>
         <div class="top-row px-4">
-            <a @onclick="@(() => LogOut())" target="_blank">Logout</a>
+            <a @onclick="@(() => LogOut())">Logout</a>
         </div>
     </Authorized>
     <NotAuthorized>
         <div class="top-row px-4">
-            <a href="auth/login" target="_blank">Login</a>
+            <a href="/auth/login">Login</a>
         </div>
     </NotAuthorized>
 </AuthorizeView>

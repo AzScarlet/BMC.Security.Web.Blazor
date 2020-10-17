@@ -1,0 +1,9 @@
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Models\bin\Release\netstandard2.0\BMC.Security.Models.deps.json
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Models\bin\Release\netstandard2.0\BMC.Security.Models.dll
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Models\bin\Release\netstandard2.0\BMC.Security.Models.pdb
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Models\obj\Release\netstandard2.0\BMC.Security.Models.csprojAssemblyReference.cache
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Models\obj\Release\netstandard2.0\BMC.Security.Models.AssemblyInfoInputs.cache
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Models\obj\Release\netstandard2.0\BMC.Security.Models.AssemblyInfo.cs
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Models\obj\Release\netstandard2.0\BMC.Security.Models.csproj.CoreCompileInputs.cache
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Models\obj\Release\netstandard2.0\BMC.Security.Models.dll
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Models\obj\Release\netstandard2.0\BMC.Security.Models.pdb

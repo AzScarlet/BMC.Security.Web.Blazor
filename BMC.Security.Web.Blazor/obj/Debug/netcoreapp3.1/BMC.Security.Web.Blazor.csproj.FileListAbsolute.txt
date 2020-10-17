@@ -97,3 +97,4 @@ C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcorea
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcoreapp3.1\Razor\Shared\LoginDisplay.razor.g.cs
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Private\ControlPanel.razor.g.cs
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\obj\Debug\netcoreapp3.1\Razor\Pages\Private\ControlPanel.razor.g.cs
+C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Web.Blazor\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\BMCSecurityWeb - Web Deploy\profile.arm.json

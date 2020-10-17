@@ -9,7 +9,6 @@ C:\Jobs\KLEIN\BMC.Security.Web.Blazor\StockAnalyzer.Tools\obj\Debug\netstandard2
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Tools\bin\Debug\netstandard2.0\BMC.Security.Tools.deps.json
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Tools\bin\Debug\netstandard2.0\BMC.Security.Tools.dll
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Tools\bin\Debug\netstandard2.0\BMC.Security.Tools.pdb
-C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Tools\obj\Debug\netstandard2.0\BMC.Security.Tools.csprojAssemblyReference.cache
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Tools\obj\Debug\netstandard2.0\BMC.Security.Tools.AssemblyInfoInputs.cache
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Tools\obj\Debug\netstandard2.0\BMC.Security.Tools.AssemblyInfo.cs
 C:\Jobs\KLEIN\BMC.Security.Web.Blazor\BMC.Security.Tools\obj\Debug\netstandard2.0\BMC.Security.Tools.csproj.CoreCompileInputs.cache
