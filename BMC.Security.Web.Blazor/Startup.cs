@@ -27,6 +27,13 @@ namespace BMC.Security.Web.Blazor
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            AppConstants.BlobConString = Configuration["ConnectionStrings:BlobConString"];
+            AppConstants.IoTCon = Configuration["ConnectionStrings:IoTCon"];
+            MqttInfo.MqttHost = Configuration["MqttInfo:MqttHost"];
+            MqttInfo.MqttUser = Configuration["MqttInfo:MqttUser"];
+            MqttInfo.MqttPass = Configuration["MqttInfo:MqttPass"];
+            AppConstants.AdminAccounts = Configuration.GetSection("AdminAccount").Get<List<Account>>();
+
             services.AddRazorPages();
             services.AddBlazoredToast();
             services.AddServerSideBlazor();

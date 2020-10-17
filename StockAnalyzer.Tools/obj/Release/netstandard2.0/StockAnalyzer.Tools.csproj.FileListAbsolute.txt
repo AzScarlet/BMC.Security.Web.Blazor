@@ -1,0 +1,9 @@
+C:\Jobs\KLEIN\StockAnalyzer\StockAnalyzer.Tools\bin\Release\netstandard2.0\StockAnalyzer.Tools.deps.json
+C:\Jobs\KLEIN\StockAnalyzer\StockAnalyzer.Tools\bin\Release\netstandard2.0\StockAnalyzer.Tools.dll
+C:\Jobs\KLEIN\StockAnalyzer\StockAnalyzer.Tools\bin\Release\netstandard2.0\StockAnalyzer.Tools.pdb
+C:\Jobs\KLEIN\StockAnalyzer\StockAnalyzer.Tools\obj\Release\netstandard2.0\StockAnalyzer.Tools.csprojAssemblyReference.cache
+C:\Jobs\KLEIN\StockAnalyzer\StockAnalyzer.Tools\obj\Release\netstandard2.0\StockAnalyzer.Tools.AssemblyInfoInputs.cache
+C:\Jobs\KLEIN\StockAnalyzer\StockAnalyzer.Tools\obj\Release\netstandard2.0\StockAnalyzer.Tools.AssemblyInfo.cs
+C:\Jobs\KLEIN\StockAnalyzer\StockAnalyzer.Tools\obj\Release\netstandard2.0\StockAnalyzer.Tools.csproj.CoreCompileInputs.cache
+C:\Jobs\KLEIN\StockAnalyzer\StockAnalyzer.Tools\obj\Release\netstandard2.0\StockAnalyzer.Tools.dll
+C:\Jobs\KLEIN\StockAnalyzer\StockAnalyzer.Tools\obj\Release\netstandard2.0\StockAnalyzer.Tools.pdb
