@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\BMC.Security.Tools.csproj": {}
+    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\BMC.Security.Tools.csproj": {}
   },
   "projects": {
-    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\BMC.Security.Tools.csproj": {
+    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\BMC.Security.Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\BMC.Security.Tools.csproj",
+        "projectUniqueName": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\BMC.Security.Tools.csproj",
         "projectName": "BMC.Security.Tools",
-        "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\BMC.Security.Tools.csproj",
+        "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\BMC.Security.Tools.csproj",
         "packagesPath": "C:\\Users\\Janu\\.nuget\\packages\\",
-        "outputPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\obj\\",
+        "outputPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

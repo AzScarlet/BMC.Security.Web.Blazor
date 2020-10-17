@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1PlsflRLrnGoRP/W9G05rdKN18gjxXkTB5R/Tsy8GLvIvYTT7Kq7stgXr+GiYF0dZfFcKoldihGiXA8blBvfGg==",
+  "dgSpecHash": "OHdptJ0hTrKVPPy2ytz9x/DKheT2hUqgwJNGhPcKtEwWtDrK34iqa/TsHb/QBjgaoW3fpPFvPTWQ4tq/ZEqipQ==",
   "success": true,
-  "projectFilePath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\BMC.Security.Tools.csproj",
+  "projectFilePath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\BMC.Security.Tools.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Janu\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Janu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

@@ -10,7 +10,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BMC.Security.Web.Blazor.Data;
+using BMC.Security.Tools;
 using Blazored.Toast;
+using Blazored.LocalStorage;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Net.Http;
 
 namespace BMC.Security.Web.Blazor
 {
@@ -34,10 +39,35 @@ namespace BMC.Security.Web.Blazor
             MqttInfo.MqttPass = Configuration["MqttInfo:MqttPass"];
             AppConstants.AdminAccounts = Configuration.GetSection("AdminAccount").Get<List<Account>>();
 
+            services.AddBlazoredLocalStorage();
             services.AddRazorPages();
             services.AddBlazoredToast();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+
+            // ******
+            // BLAZOR COOKIE Auth Code (begin)
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+            services.AddAuthentication(
+                CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie();
+            // BLAZOR COOKIE Auth Code (end)
+            // ******
+            // ******
+            // BLAZOR COOKIE Auth Code (begin)
+            // From: https://github.com/aspnet/Blazor/issues/1554
+            // HttpContextAccessor
+            services.AddHttpContextAccessor();
+            services.AddScoped<HttpContextAccessor>();
+            services.AddHttpClient();
+            services.AddScoped<HttpClient>();
+
+            // BLAZOR COOKIE Auth Code (end)
+            // ******
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,8 +89,19 @@ namespace BMC.Security.Web.Blazor
 
             app.UseRouting();
 
+            // ******
+            // BLAZOR COOKIE Auth Code (begin)
+            app.UseCookiePolicy();
+            app.UseAuthentication();
+            app.UseAuthorization();
+            // BLAZOR COOKIE Auth Code (end)
+            // ******
+
             app.UseEndpoints(endpoints =>
-            {
+            {                
+                // BLAZOR COOKIE Auth Code (begin)
+                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+                // BLAZOR COOKIE Auth Code (end)
                 endpoints.MapBlazorHub();
                 endpoints.MapFallbackToPage("/_Host");
             });

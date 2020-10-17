@@ -36,7 +36,7 @@ namespace BMC.Security.Web.Blazor.Pages
             OnGetAsync(string paramUsername, string paramPassword)
         {
           
-            string returnUrl = Url.Content("~/order");
+            string returnUrl = Url.Content("~/");
             try
             {
                 // Clear the existing external cookie

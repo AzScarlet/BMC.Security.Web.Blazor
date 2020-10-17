@@ -64,111 +64,14 @@
         }
       }
     },
-    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj": {
+    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\BMC.Security.Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj",
-        "projectName": "BMC.Security.Web.Blazor",
-        "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj",
-        "packagesPath": "C:\\Users\\Janu\\.nuget\\packages\\",
-        "outputPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Janu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\LocalNugetPackagesSources": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Models\\BMC.Security.Models.csproj": {
-                "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Models\\BMC.Security.Models.csproj"
-              },
-              "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\BMC.Security.Tools.csproj": {
-                "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\BMC.Security.Tools.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Antlr": {
-              "target": "Package",
-              "version": "[3.5.0.2, )"
-            },
-            "Blazored.Toast": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "M2Mqtt": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "Microsoft.Azure.Devices": {
-              "target": "Package",
-              "version": "[1.27.2, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            },
-            "WindowsAzure.Storage": {
-              "target": "Package",
-              "version": "[9.3.3, )"
-            },
-            "shortid": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\BMC.Security.Tools.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\BMC.Security.Tools.csproj",
+        "projectUniqueName": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\BMC.Security.Tools.csproj",
         "projectName": "BMC.Security.Tools",
-        "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\BMC.Security.Tools.csproj",
+        "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\BMC.Security.Tools.csproj",
         "packagesPath": "C:\\Users\\Janu\\.nuget\\packages\\",
-        "outputPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\StockAnalyzer.Tools\\obj\\",
+        "outputPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -221,6 +124,107 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj",
+        "projectName": "BMC.Security.Web.Blazor",
+        "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor.csproj",
+        "packagesPath": "C:\\Users\\Janu\\.nuget\\packages\\",
+        "outputPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Web.Blazor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Janu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\LocalNugetPackagesSources": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Models\\BMC.Security.Models.csproj": {
+                "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Models\\BMC.Security.Models.csproj"
+              },
+              "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\BMC.Security.Tools.csproj": {
+                "projectPath": "C:\\Jobs\\KLEIN\\BMC.Security.Web.Blazor\\BMC.Security.Tools\\BMC.Security.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Antlr": {
+              "target": "Package",
+              "version": "[3.5.0.2, )"
+            },
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Blazored.Toast": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "M2Mqtt": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.Azure.Devices": {
+              "target": "Package",
+              "version": "[1.27.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            },
+            "shortid": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
