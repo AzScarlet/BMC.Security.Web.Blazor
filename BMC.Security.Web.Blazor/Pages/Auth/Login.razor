@@ -1,8 +1,15 @@
 ﻿@page  "/auth/login"
 
+@using Microsoft.AspNetCore.WebUtilities
 @using System.Security.Claims
 @using Microsoft.AspNetCore.Components.Authorization
+@using BMC.Security.Tools
+@using System.Web
+
 @inject AuthenticationStateProvider AuthenticationStateProvider
+@inject IToastService toastService
+@inject IJSRuntime jsRuntime
+@inject NavigationManager navMgr
 
 <div class="main">
     <div class="card-img">
@@ -12,19 +19,64 @@
         <div>
             <strong style="font-size:40px">WELCOME TO</strong><br />
             <p style="font-size:25px">BMSPACE SECURITY</p>
-            <p style="font-size:20px">Panel 0.1</p>
         </div>
         <div>
-            <input style="border: 1px solid grey; border-radius: 30px; text-align: center; padding: 10px; width: 270px;" placeholder="Passcode" name="ctl00$MainContent$TxtPass" type="password" id="MainContent_TxtPass" class="uk-input" />
+            <input @bind="Email" style="border: 1px solid grey; border-radius: 30px; text-align: center; padding: 10px; width: 270px;" placeholder="Email" name="ctl00$MainContent$TxtPass" type="text" id="MainContent_TxtPass" class="uk-input" />
         </div>
         <br />
         <div>
-            <input style="border-radius: 15px; padding: 5px; width: 100px; color: white; background: #1d1761; margin-left: 80px; text-transform: capitalize;" type="submit" name="ctl00$MainContent$BtnPass" value="Sign-in" id="MainContent_BtnPass" class="uk-button uk-button-default" />
+            <input @bind="Password" style="border: 1px solid grey; border-radius: 30px; text-align: center; padding: 10px; width: 270px;" placeholder="Password" name="ctl00$MainContent$TxtPass" type="password" id="MainContent_TxtPass" class="uk-input" />
         </div>
+        <br />
+        <button class="btn-default" @onclick="DoLogin">Login</button>
     </div>
 </div>
 
-
 @code {
+    string Email = string.Empty;
+    string Password = string.Empty;
 
+    async Task DoLogin()
+    {
+        string ErrorMsg = string.Empty;
+        if (string.IsNullOrEmpty(Email))
+        {
+            ErrorMsg = "Insert email";
+        }
+        if (string.IsNullOrEmpty(Password))
+        {
+            ErrorMsg = "Insert password";
+        }
+        if (ErrorMsg.Length > 0)
+        {
+            toastService.ShowError(ErrorMsg);
+            return;
+        }
+        else
+        {
+            string logUrl = $"/login?paramUsername={encode(Email)}&paramPassword={encode(Password)}";
+            await jsRuntime.InvokeAsync<object>("OpenUrl", logUrl);
+        }
+
+        return;
+    }
+
+    private string encode(string param)
+    {
+        return HttpUtility.UrlEncode(param);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var uri = navMgr.ToAbsoluteUri(navMgr.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("result", out var resultString))
+        {
+            var result = bool.Parse(resultString);
+            if (!result)
+            {
+                //showError = true;
+                toastService.ShowWarning("username/password salah atau tidak terdaftar", "Perhatian");
+            }
+        }
+    }
 }

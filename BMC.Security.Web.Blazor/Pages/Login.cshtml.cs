@@ -32,8 +32,7 @@ namespace BMC.Security.Web.Blazor.Pages
             return true;
         }
         public string ReturnUrl { get; set; }
-        public async Task<IActionResult>
-            OnGetAsync(string paramUsername, string paramPassword)
+        public async Task<IActionResult>OnGetAsync(string paramUsername, string paramPassword)
         {
           
             string returnUrl = Url.Content("~/");
